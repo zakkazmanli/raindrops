@@ -55,8 +55,5 @@ namespace RainDrops
         {
             Assert.That(_rainDrop.ConvertNumToRainDropString(num), Is.EqualTo(expected));
         }
-
-        
-
     }
 }
