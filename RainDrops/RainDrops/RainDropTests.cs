@@ -51,6 +51,8 @@ namespace RainDrops
         [TestCase(42, "PlingPlong")]
         [TestCase(35, "PlangPlong")]
         [TestCase(70, "PlangPlong")]
+        [TestCase(105, "PlingPlangPlong")]
+        [TestCase(210, "PlingPlangPlong")]
         public void GivenANumberHasMultipleStatedFactors_ReturnAnExtendedString(int num, string expected)
         {
             Assert.That(_rainDrop.ConvertNumToRainDropString(num), Is.EqualTo(expected));
